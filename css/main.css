@@ -6,6 +6,7 @@ html {
     line-height: 1.4;
 }
 
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -156,7 +157,26 @@ nav a:hover {
 
 
 
+   .over1{
+       position:absolute;
+       z-index:1;
+       bottom:200px;
+       right:800px;
+   }
 
+   .over2{
+       position:absolute;
+       z-index:1;
+       bottom:200px;
+       right:500px;
+   }
+
+   .over3{
+       position:absolute;
+       z-index:1;
+       bottom:200px;
+       right:200px;
+   }
 
 
 
