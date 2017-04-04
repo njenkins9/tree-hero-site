@@ -179,14 +179,87 @@ nav a:hover {
    }
 
 
+      .button {
+          background-color: #4CAF50; /* Green */
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+      }
+
+      .start-section {
+
+
+          position: absolute;
+          top:0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+
+          display: flex;
+          flex direction: column;
+          justify-content: center;
+          align-items: center;
+
+          color: white;
+       }
+
+      .btn{
+
+        padding: 10 px 2px;
+        border-radius: 2px;
+
+        font-size: 72px;
+      }
 
 
 
+   .content-box {
+     background-size: 800px;
+     position: absolute;
+     top: 50px;
+     right: 30px;
+     bottom: 10px;
+     left: 30px;
+     padding: 30px;
+     color: white;
+     display: none;
+   }
 
 
+      .content-northamerica {
+         background-image: url(../img/moose-01.jpg);
 
+      }
+   /*
+      .content-box .nAmerica {
+        position: relative;
+      }
 
+      .content-asia {
+         background-image: url(../img/komodo-01.jpg);
+       }
 
+     .content-africa {
+         background-image: url(../img/lion-01.jpg);
+       }
+
+     .content-auss {
+         background-image: url(../img/kangaroo-01.jpg);
+       }
+*/
+
+       .btn-close {
+         position: absolute;
+         top: 5px;
+         right: 10px;
+         font-family: Helvetica, Arial, sans-serif;
+         text-decoration: none;
+         font-size: 24px
+       }
 
 /* ==========================================================================
    Media Queries
